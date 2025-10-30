@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ## lab 1
 
 Lab 1 was a warm-up to openCV functions and manipulating images. <br>
-excercises included;
+excercises included:
 - image rotation
 - image reflection
 - manipulating color values
@@ -29,11 +29,26 @@ excercises included;
 
 ### important functions/explanations:
 
-todo
+- .shape -> function from the numpy library that takes in an image and returns its dimensions (height, width, channels)
+- .dtype -> returns the data type that the array contains
+
+#### showing/plotting an image:
+def show_image(img, title='', cmap=None):
+    plt.title(title)
+    plt.imshow(img, cmap=cmap)
+    plt.axis('off')
+    plt.show()
+
+- cmap is part of the matplotlib library that maps numerical values to colors (RGB).
+
 
 
 
 ## lab 2
 
 todo
+
+## lab 3
+
+## lab 4
 
