@@ -46,7 +46,19 @@ def show_image(img, title='', cmap=None):
 
 ## lab 2
 
-todo
+Created a grayscale histogram, which shows the pixel intensity distributions of an image. We can **equalize** that histogram by spreading out the most frequent intensity levels, so there will be a larger variety of intensities in the image. 
+
+vocab:
+
+Convolution - Convolution is a mathematical operation where a kernal slides incrementally over an image 
+to combine values of all the pixels close by, which can create effects such as blurring, sharpening or edge detection.
+Kernel - A kernel is a small matrix that is used for convolution. It is designed to define
+a pixels relationship with its neighbours, which is outputed using the dot product.
+
+Gaussian Blur - Gaussian blur smooths the image by averaging pixels with their neighbors, weighted by a Gaussian kernel.
+
+Sobel Edge Detection - The Sobel operator detects edges by calculating gradients in the X and Y directions.
+
 
 ## lab 3
 
