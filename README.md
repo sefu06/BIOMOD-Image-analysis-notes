@@ -61,6 +61,8 @@ Sobel Edge Detection - The Sobel operator detects edges by calculating gradients
 
 
 ## lab 3
+todo
 
 ## lab 4
+todo
 
